@@ -156,6 +156,11 @@ export default function Home() {
                 patience, discretion, and a genuine belief that calm spaces create room for what 
                 matters most.
               </p>
+              <p className="text-lg text-gray-700 mb-8">
+                Based in Randburg, Gauteng (and always up for travel), I offer refined home and 
+                office organization for clients who value calm, efficient, and well-considered 
+                spaces.
+              </p>
               
             </div>
           </div>
