@@ -1,0 +1,26 @@
+import { Inter } from 'next/font/google';
+import './globals.css';
+import Header from '@/app/components/Header';
+import Footer from '@/app/components/Footer';
+
+
+const inter = Inter({ subsets: ['latin'] });
+
+export const metadata = {
+  title: 'Simply Sorted - Professional Organizing & Home Staging',
+  description: 'Professional organizing and home staging services in Randburg, Gauteng. Creating calm, functional, and beautifully presented spaces.',
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body className={inter.className}>
+        <Header />
+        <main className="min-h-screen">
+          {children}
+        </main>
+        <Footer />
+      </body>
+    </html>
+  );
+} 
