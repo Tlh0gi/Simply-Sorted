@@ -48,8 +48,8 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-400">
               <li>Randburg, Gauteng</li>
-              <li>Email: [email placeholder]</li>
-              <li>Phone: [phone placeholder]</li>
+              <li>Email: Funeka.Kgala@SimplySorted.com</li>
+              <li>Phone: 079 892 7486</li>
             </ul>
           </div>
         </div>

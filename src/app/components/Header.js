@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Header() {
   return (
@@ -7,8 +8,14 @@ export default function Header() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <div className="text-2xl font-bold text-black">
-              Simply Sorted
+            <div className="relative w-60 h-16 overflow-hidden">
+              <Image 
+                src="/images/company-logo.jpeg" 
+                alt="Simply Sorted Logo" 
+                fill
+                className="object-contain scale-[4.5]"
+                priority
+              />
             </div>
           </Link>
 
