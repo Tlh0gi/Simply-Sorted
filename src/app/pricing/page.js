@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Pricing() {
   return (
@@ -53,7 +54,12 @@ export default function Pricing() {
               {/* Image Placeholder */}
               <div className="relative h-48 bg-gray-200 rounded-lg mb-6">
                 <div className="absolute inset-0 flex items-center justify-center text-gray-500 text-sm">
-                  [Service Image Placeholder]
+                  <Image
+                        src="/images/outdoor2.png"
+                        alt="Professional organizing services"
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
                 </div>
               </div>
 
@@ -119,8 +125,13 @@ export default function Pricing() {
               {/* Image Placeholder */}
               <div className="relative h-48 bg-gray-300 rounded-lg mb-6">
                 <div className="absolute inset-0 flex items-center justify-center text-gray-600 text-sm">
-                  [Service Image Placeholder]
-                </div>
+                  <Image
+                        src="/images/outdoor1.png"
+                        alt="Professional organizing services"
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                  </div>
               </div>
 
               <ul className="space-y-3 mb-8">
@@ -178,7 +189,12 @@ export default function Pricing() {
               {/* Image Placeholder */}
               <div className="relative h-48 bg-gray-200 rounded-lg mb-6">
                 <div className="absolute inset-0 flex items-center justify-center text-gray-500 text-sm">
-                  [Service Image Placeholder]
+                  <Image
+                        src="/images/outdoor3.png"
+                        alt="Professional organizing services"
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
                 </div>
               </div>
 
@@ -253,7 +269,12 @@ export default function Pricing() {
               {/* Image Placeholder */}
               <div className="relative h-48 bg-gray-200 rounded-lg mb-6">
                 <div className="absolute inset-0 flex items-center justify-center text-gray-500 text-sm">
-                  [Service Image Placeholder]
+                  <Image
+                        src="/images/outdoor4.png"
+                        alt="Professional organizing services"
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
                 </div>
               </div>
 
@@ -318,7 +339,12 @@ export default function Pricing() {
               {/* Image Placeholder */}
               <div className="relative h-48 bg-gray-200 rounded-lg mb-6">
                 <div className="absolute inset-0 flex items-center justify-center text-gray-500 text-sm">
-                  [Service Image Placeholder]
+                  <Image
+                        src="/images/outdoor5.png"
+                        alt="professional packaging"
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
                 </div>
               </div>
 
@@ -392,7 +418,12 @@ export default function Pricing() {
           {/* Image Placeholder */}
           <div className="relative h-48 bg-gray-200 rounded-lg mb-6">
             <div className="absolute inset-0 flex items-center justify-center text-gray-500 text-sm">
-              [Service Image Placeholder]
+              <Image
+                        src="/images/packaging4.png"
+                        alt="Professional organizing services"
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
             </div>
           </div>
 
@@ -445,7 +476,12 @@ export default function Pricing() {
           {/* Image Placeholder */}
           <div className="relative h-48 bg-gray-200 rounded-lg mb-6">
             <div className="absolute inset-0 flex items-center justify-center text-gray-500 text-sm">
-              [Service Image Placeholder]
+              <Image
+                        src="/images/packaging2.png"
+                        alt="Professional organizing services"
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
             </div>
           </div>
 
