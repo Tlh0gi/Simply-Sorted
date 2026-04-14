@@ -17,7 +17,7 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-5xl md:text-6xl font-bold text-black mb-6">
-              About Simply Sorted
+              About Orderly Bliss
             </h1>
             <p className="text-xl text-gray-700">
               Creating calm, functional, and beautifully presented spaces for families, 
@@ -33,7 +33,7 @@ export default function About() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold text-black mb-8 text-center">Our Story</h2>
             <p className="text-lg text-gray-700 mb-6">
-              Simply Sorted is a boutique professional organizing and home staging business based 
+              Orderly Bliss is a boutique professional organizing and home staging business based 
               in Randburg, Gauteng, helping families, professionals, and homeowners transform their 
               spaces into calm, functional, and beautifully presented homes.
             </p>
@@ -51,7 +51,7 @@ export default function About() {
               experience from start to finish.
             </p>
             <p className="text-lg text-gray-700 font-medium italic">
-              At Simply Sorted, we believe that an organized and well-staged home isn't just about 
+              At Orderly Bliss, we believe that an organized and well-staged home isn't just about 
               how it looks – it's about how it feels. Calm. Clear. Effortless.
             </p>
           </div>
@@ -157,7 +157,7 @@ export default function About() {
               </p>
             </div>
 
-            {/* Image Placeholder */}
+            {/* Image  */}
             <div className="relative h-96 rounded-lg overflow-hidden shadow-lg">
               <Image
                 src="/images/indoor-service.jpeg"
@@ -209,7 +209,7 @@ export default function About() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-black mb-12 text-center">Why Simply Sorted</h2>
+            <h2 className="text-4xl font-bold text-black mb-12 text-center">Why Orderly Bliss</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="p-6 bg-beige-light rounded-lg">
                 <h3 className="text-xl font-bold text-black mb-3">Warm, respectful, and confidential service</h3>
@@ -287,7 +287,7 @@ export default function About() {
               </div>
             </div>
             <p className="text-lg text-gray-700 text-center mb-8">
-              Simply Sorted is here to help you get your home in order and have it function to your 
+              Orderly Bliss is here to help you get your home in order and have it function to your 
               everyday lifestyle.
             </p>
             <div className="text-center">

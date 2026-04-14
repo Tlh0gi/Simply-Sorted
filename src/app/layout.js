@@ -7,7 +7,7 @@ import Footer from '@/app/components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Simply Sorted - Professional Organizing & Home Staging',
+  title: 'Orderly Bliss - Professional Organizing & Home Staging',
   description: 'Professional organizing and home staging services in Randburg, Gauteng. Creating calm, functional, and beautifully presented spaces.',
   icons: {
     icon: "images/logo.png", 
@@ -27,7 +27,7 @@ export const metadata = {
     'office organizing',
     'CPO South Africa',
     'certified professional organizer',
-    'Simply Sorted',
+    'Orderly Bliss',
     'organizing services near me',
     'home organizer Gauteng',
     'declutter my home',

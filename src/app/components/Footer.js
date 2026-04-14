@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">Simply Sorted</h3>
+            <h3 className="text-2xl font-bold mb-4">Orderly Bliss</h3>
             <p className="text-gray-400 mb-4">
               Professional organizing and home staging services in Randburg, Gauteng.
             </p>
@@ -56,7 +56,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Simply Sorted | Randburg, Gauteng. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Orderly Bliss | Randburg, Gauteng. All rights reserved.</p>
         </div>
       </div>
     </footer>

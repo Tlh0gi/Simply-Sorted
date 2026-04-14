@@ -61,7 +61,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-black mb-4">
-              Welcome to Simply Sorted
+              Welcome to Orderly Bliss
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               A boutique professional organizing and home staging business dedicated to 
@@ -147,7 +147,7 @@ export default function Home() {
                 organizer (CPO). I am so happy you are here!
               </p>
               <p className="text-lg text-gray-700 mb-4">
-                I run Simply Sorted, a local professional organizing service. I help families, 
+                I run Orderly Bliss, a local professional organizing service. I help families, 
                 professionals and small businesses create calm, functional spaces with systems 
                 that are easy to maintain.
               </p>
