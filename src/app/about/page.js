@@ -293,13 +293,13 @@ export default function About() {
             <div className="text-center">
               <Link 
                 href="/pricing"
-                className="inline-block bg-black text-white px-8 py-3 rounded hover:bg-gray-800 transition-colors mr-4"
+                className="inline-block bg-black text-white px-8 py-3 rounded hover:bg-gray-800 transition-colors mr-4 mb-4"
               >
                 View Our Services
               </Link>
               <Link 
                 href="/contact"
-                className="inline-block border-2 border-black text-black px-8 py-3 rounded hover:bg-black hover:text-white transition-colors"
+                className="inline-block border-2 border-black text-black px-8 py-3 rounded hover:bg-black hover:text-white transition-colors mr-4"
               >
                 Contact Us
               </Link>

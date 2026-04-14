@@ -129,15 +129,16 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Funi's Image */}
-            <div className="relative h-[500px] md:h-[600px] rounded-lg overflow-hidden shadow-lg order-2 md:order-1">
-              <Image
-                src="/images/funi-image.jpeg"
-                alt="Funi - Founder of Simply Sorted"
-                fill
-                className="object-cover object-top"
-              />
-            </div>
-
+            <div className="relative w-full h-auto rounded-lg overflow-hidden shadow-lg order-2 md:order-1">
+            <Image
+              src="/images/owner_image.jpeg"
+              alt="Funi - Founder of Simply Sorted"
+              width={800}
+              height={600}
+              className="object-contain"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
+          </div>
             {/* Text Content */}
             <div className="order-1 md:order-2">
               <h2 className="text-4xl font-bold text-black mb-4">Meet Funi</h2>

@@ -35,7 +35,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-the next thing to add on the website is some images on the pricing page.
-creating a form.
-making sure that emails are being sent to the admin.(would require further testing.)
+
+
 Optimizing for mobile(reducing the cards for planning)
