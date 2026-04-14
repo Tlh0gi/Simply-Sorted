@@ -131,7 +131,7 @@ export default function Home() {
             {/* Funi's Image */}
             <div className="relative w-full h-auto rounded-lg overflow-hidden shadow-lg order-2 md:order-1">
             <Image
-              src="/images/owner_image.jpeg"
+              src="/images/owner_image.png"
               alt="Funi - Founder of Simply Sorted"
               width={800}
               height={600}
