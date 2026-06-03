@@ -22,10 +22,10 @@ export default function Header() {
           <Link href="/" className="flex items-center">
             <div className="relative w-60 h-16 overflow-hidden">
               <Image 
-                src="/images/company-logo.jpeg" 
+                src="/images/company_logo.jpeg" 
                 alt="Simply Sorted Logo" 
                 fill
-                className="object-contain scale-[4.5]"
+                className="object-cover"
                 priority
               />
             </div>
