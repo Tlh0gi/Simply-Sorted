@@ -55,7 +55,7 @@ export default function Pricing() {
               <div className="relative h-48 bg-gray-200 rounded-lg mb-6">
                 <div className="absolute inset-0 flex items-center justify-center text-gray-500 text-sm">
                   <Image
-                        src="/images/outdoor2.png"
+                        src="/images/services/simply_start.png"
                         alt="Professional organizing services"
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -126,7 +126,7 @@ export default function Pricing() {
               <div className="relative h-48 bg-gray-300 rounded-lg mb-6">
                 <div className="absolute inset-0 flex items-center justify-center text-gray-600 text-sm">
                   <Image
-                        src="/images/outdoor1.png"
+                        src="/images/services/signature_sort.png"
                         alt="Professional organizing services"
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -190,7 +190,7 @@ export default function Pricing() {
               <div className="relative h-48 bg-gray-200 rounded-lg mb-6">
                 <div className="absolute inset-0 flex items-center justify-center text-gray-500 text-sm">
                   <Image
-                        src="/images/outdoor3.png"
+                        src="/images/services/complete_calm.png"
                         alt="Professional organizing services"
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -270,7 +270,7 @@ export default function Pricing() {
               <div className="relative h-48 bg-gray-200 rounded-lg mb-6">
                 <div className="absolute inset-0 flex items-center justify-center text-gray-500 text-sm">
                   <Image
-                        src="/images/outdoor4.png"
+                        src="/images/services/gentle_transition.png"
                         alt="Professional organizing services"
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -419,7 +419,7 @@ export default function Pricing() {
           <div className="relative h-48 bg-gray-200 rounded-lg mb-6">
             <div className="absolute inset-0 flex items-center justify-center text-gray-500 text-sm">
               <Image
-                        src="/images/packaging4.png"
+                        src="/images/services/market_ready.jpg"
                         alt="Professional organizing services"
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -477,7 +477,7 @@ export default function Pricing() {
           <div className="relative h-48 bg-gray-200 rounded-lg mb-6">
             <div className="absolute inset-0 flex items-center justify-center text-gray-500 text-sm">
               <Image
-                        src="/images/packaging2.png"
+                        src="/images/services/home_look.jpeg"
                         alt="Professional organizing services"
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
