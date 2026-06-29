@@ -98,7 +98,7 @@ export default function About() {
             <div className="group">
               <div className="relative h-72 rounded-lg overflow-hidden shadow-md mb-4">
                 <Image
-                  src="/images/about/about_image2.jpeg"
+                  src="/images/about/shoe_rack.jpeg"
                   alt="Home staging services"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"

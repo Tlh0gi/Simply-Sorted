@@ -5,27 +5,45 @@ export default function Pricing() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative bg-beige-light py-16 md:py-24">
-        {/* Decorative diagonal lines */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <svg className="absolute right-0 top-0 h-full w-1/2" viewBox="0 0 400 800" fill="none">
-            <line x1="0" y1="0" x2="400" y2="400" stroke="black" strokeWidth="1" opacity="0.1" />
-            <line x1="100" y1="0" x2="400" y2="300" stroke="black" strokeWidth="1" opacity="0.1" />
-          </svg>
-        </div>
+<section className="relative py-20 md:py-32 min-h-[600px] flex items-center">
+  {/* Background Image */}
+  <div className="absolute inset-0 z-0">
+    <Image
+      src="/images/services/services_bg.jpeg"
+      alt="Beautiful organized home"
+      fill
+      sizes="100vw"
+      className="object-cover object-center"
+      priority
+    />
+    {/* Gradient overlay: dark on left for text readability, transparent on right to show image */}
+    <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent" />
+  </div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-black mb-6">
-              Our Services
-            </h1>
-            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              Professional organizing and home staging solutions tailored to your needs. 
-              From single-room organization to complete home transformations.
-            </p>
-          </div>
-        </div>
-      </section>
+  {/* Decorative diagonal lines */}
+  <div className="absolute inset-0 overflow-hidden pointer-events-none z-10">
+    <svg className="absolute right-0 top-0 h-full w-1/2" viewBox="0 0 400 800" fill="none">
+      <line x1="0" y1="0" x2="400" y2="400" stroke="white" strokeWidth="1" opacity="0.15" />
+      <line x1="100" y1="0" x2="400" y2="300" stroke="white" strokeWidth="1" opacity="0.15" />
+    </svg>
+  </div>
+
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full">
+    <div className="grid grid-cols-1 md:grid-cols-2">
+      {/* Left column: text only */}
+      <div>
+        <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
+          Our Services
+        </h1>
+        <p className="text-xl text-gray-200 mb-8">
+          Professional organizing and home staging solutions tailored to your needs.
+          From single-room organization to complete home transformations.
+        </p>
+      </div>
+      {/* Right column: intentionally empty — image shows through */}
+    </div>
+  </div>
+</section>
 
       {/* Professional Organizing Packages */}
       <section className="py-20 bg-white">
@@ -190,7 +208,7 @@ export default function Pricing() {
               <div className="relative h-48 bg-gray-200 rounded-lg mb-6">
                 <div className="absolute inset-0 flex items-center justify-center text-gray-500 text-sm">
                   <Image
-                        src="/images/services/complete_calm.png"
+                        src="/images/services/complete_calm.jpeg"
                         alt="Professional organizing services"
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -340,7 +358,7 @@ export default function Pricing() {
               <div className="relative h-48 bg-gray-200 rounded-lg mb-6">
                 <div className="absolute inset-0 flex items-center justify-center text-gray-500 text-sm">
                   <Image
-                        src="/images/outdoor5.png"
+                        src="/images/services/supported_move.jpg"
                         alt="professional packaging"
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
