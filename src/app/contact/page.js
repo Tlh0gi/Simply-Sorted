@@ -291,7 +291,7 @@ export default function Contact() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-black mb-2">Email</h3>
-              <p className="text-gray-700">Funeka.Kgala@SimplySorted.com</p>
+              <p className="text-gray-700">Info@simplysorted.co.za</p>
               
             </div>
 
