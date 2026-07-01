@@ -87,7 +87,7 @@ export default function About() {
             <div className="group">
               <div className="relative h-72 rounded-lg overflow-hidden shadow-md mb-4">
                 <Image
-                  src="/images/about/about_image.jpeg"
+                  src="/images/about/about_image2.jpg"
                   alt="Life transitions and downsizing support"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -160,7 +160,7 @@ export default function About() {
             {/* Image  */}
             <div className="relative h-96 rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/images/about/about_services.jpeg"
+                src="/images/about/about_services.jpg"
                 alt="Professional organizing services"
                 fill
                 className="object-cover"
@@ -177,7 +177,7 @@ export default function About() {
             {/* Image Placeholder */}
             <div className="relative h-96 rounded-lg overflow-hidden shadow-lg order-2 md:order-1">
               <Image
-                src="/images/about/company_approach.jpeg"
+                src="/images/about/about_approach.jpg"
                 alt="Our approach to organizing"
                 fill
                 className="object-cover"

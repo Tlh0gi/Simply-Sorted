@@ -92,7 +92,7 @@ export default function Home() {
             <div className="text-center p-6 group">
               <div className="relative h-48 mb-6 rounded-lg overflow-hidden shadow-md">
                 <Image
-                  src="/images/homepage/life_transition.jpeg"
+                  src="/images/homepage/life_transition.jpg"
                   alt="Life transitions and downsizing support"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -108,7 +108,7 @@ export default function Home() {
             <div className="text-center p-6 group">
               <div className="relative h-48 mb-6 rounded-lg overflow-hidden shadow-md">
                 <Image
-                  src="/images/homepage/home_staging.png"
+                  src="/images/homepage/home_staging.jpeg"
                   alt="Home staging services"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -141,7 +141,7 @@ export default function Home() {
           </div>
             {/* Text Content */}
             <div className="order-1 md:order-2">
-              <h2 className="text-4xl font-bold text-black mb-4">Meet Funi</h2>
+              <h2 className="text-4xl font-bold text-black mb-4">Meet Funeka</h2>
               <p className="text-lg text-gray-700 mb-4">
                 Hi, I'm Funi – a Project Management Professional and certified professional 
                 organizer (CPO). I am so happy you are here!

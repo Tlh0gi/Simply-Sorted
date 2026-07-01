@@ -73,7 +73,7 @@ export default function Pricing() {
               <div className="relative h-48 bg-gray-200 rounded-lg mb-6">
                 <div className="absolute inset-0 flex items-center justify-center text-gray-500 text-sm">
                   <Image
-                        src="/images/services/simply_start.png"
+                        src="/images/services/simple_start.jpg"
                         alt="Professional organizing services"
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -144,7 +144,7 @@ export default function Pricing() {
               <div className="relative h-48 bg-gray-300 rounded-lg mb-6">
                 <div className="absolute inset-0 flex items-center justify-center text-gray-600 text-sm">
                   <Image
-                        src="/images/services/signature_sort.png"
+                        src="/images/services/signature_look.jpg"
                         alt="Professional organizing services"
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -208,7 +208,7 @@ export default function Pricing() {
               <div className="relative h-48 bg-gray-200 rounded-lg mb-6">
                 <div className="absolute inset-0 flex items-center justify-center text-gray-500 text-sm">
                   <Image
-                        src="/images/services/complete_calm.jpeg"
+                        src="/images/services/complete_calm.jpg"
                         alt="Professional organizing services"
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -288,7 +288,7 @@ export default function Pricing() {
               <div className="relative h-48 bg-gray-200 rounded-lg mb-6">
                 <div className="absolute inset-0 flex items-center justify-center text-gray-500 text-sm">
                   <Image
-                        src="/images/services/gentle_transition.png"
+                        src="/images/services/gentle_transition.jpg"
                         alt="Professional organizing services"
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -358,7 +358,7 @@ export default function Pricing() {
               <div className="relative h-48 bg-gray-200 rounded-lg mb-6">
                 <div className="absolute inset-0 flex items-center justify-center text-gray-500 text-sm">
                   <Image
-                        src="/images/services/supported_move.jpg"
+                        src="/images/services/supported_move.png"
                         alt="professional packaging"
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -437,7 +437,7 @@ export default function Pricing() {
           <div className="relative h-48 bg-gray-200 rounded-lg mb-6">
             <div className="absolute inset-0 flex items-center justify-center text-gray-500 text-sm">
               <Image
-                        src="/images/services/market_ready.jpg"
+                        src="/images/services/market.jpeg"
                         alt="Professional organizing services"
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -495,7 +495,7 @@ export default function Pricing() {
           <div className="relative h-48 bg-gray-200 rounded-lg mb-6">
             <div className="absolute inset-0 flex items-center justify-center text-gray-500 text-sm">
               <Image
-                        src="/images/services/home_look.jpeg"
+                        src="/images/services/home_look.jpg"
                         alt="Professional organizing services"
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
