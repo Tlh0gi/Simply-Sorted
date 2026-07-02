@@ -74,7 +74,7 @@ export default function Home() {
             <div className="text-center p-6 group">
             <div className="relative w-full h-48 mb-6 rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/images/homepage/professional-organizing.jpeg"
+              src="/images/homepage/professional_organizing.jpeg"
               alt="Professional organizing services"
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -108,7 +108,7 @@ export default function Home() {
             <div className="text-center p-6 group">
               <div className="relative h-48 mb-6 rounded-lg overflow-hidden shadow-md">
                 <Image
-                  src="/images/homepage/home_staging.jpeg"
+                  src="/images/homepage/home-staging.jpeg"
                   alt="Home staging services"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
