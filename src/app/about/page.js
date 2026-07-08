@@ -41,7 +41,7 @@ export default function About() {
               We specialize in decluttering, organizing, and styling spaces that support everyday 
               living while enhancing the visual appeal and value of your home. Whether you are 
               feeling overwhelmed by clutter, preparing to sell, or simply craving a more 
-              intentional living environment, Simply Sorted offers thoughtful, tailored solutions 
+              intentional living environment, Orderly Bliss offers thoughtful, tailored solutions 
               that make your space work for you.
             </p>
             <p className="text-lg text-gray-700 mb-6">

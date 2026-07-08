@@ -144,7 +144,7 @@ export default function Pricing() {
               <div className="relative h-48 bg-gray-300 rounded-lg mb-6">
                 <div className="absolute inset-0 flex items-center justify-center text-gray-600 text-sm">
                   <Image
-                        src="/images/services/signature_look.jpg"
+                        src="/images/services/signature_style.jpg"
                         alt="Professional organizing services"
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
