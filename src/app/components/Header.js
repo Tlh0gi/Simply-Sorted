@@ -15,17 +15,18 @@ export default function Header() {
   };
   
   return (
-    <header className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
+      <header className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-28">
+        <div className="flex justify-between items-center h-20 lg:h-28">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <div className="relative w-60 h-24 overflow-hidden">
-              <Image 
-                src="/images/homepage/logo/main_logo.jpeg" 
-                alt="Simply Sorted Logo" 
+            <div className="relative h-16 lg:h-24 aspect-[1026/756]">
+              <Image
+                src="/images/homepage/logo/main_logo.jpeg"
+                alt="Simply Sorted Logo"
                 fill
-                className="object-cover"
+                sizes="(min-width: 1024px) 131px, 87px"
+                className="object-contain"
                 priority
               />
             </div>

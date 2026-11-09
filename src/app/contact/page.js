@@ -126,7 +126,7 @@ export default function Contact() {
             {status === 'error' && (
               <div className="mb-6 p-4 bg-red-100 border border-red-400 text-red-700 rounded-lg">
                 <p className="font-semibold">Oops! Something went wrong.</p>
-                <p>Please try again or email us directly at info@simplysorted.co.za</p>
+                <p>Please try again or email us directly at orderlybliss.co.za</p>
               </div>
             )}
 
@@ -291,7 +291,7 @@ export default function Contact() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-black mb-2">Email</h3>
-              <p className="text-gray-700">Info@simplysorted.co.za</p>
+              <p className="text-gray-700">orderlybliss.co.za</p>
               
             </div>
 
