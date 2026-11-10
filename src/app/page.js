@@ -143,7 +143,7 @@ export default function Home() {
             <div className="order-1 md:order-2">
               <h2 className="text-4xl font-bold text-black mb-4">Meet Funeka</h2>
               <p className="text-lg text-gray-700 mb-4">
-                Hi, I'm Funi – a Project Management Professional and certified professional 
+                Hi, I'm Funeka – a Project Management Professional and certified professional 
                 organizer (CPO). I am so happy you are here!
               </p>
               <p className="text-lg text-gray-700 mb-4">
